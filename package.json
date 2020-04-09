@@ -1,0 +1,32 @@
+{
+  "name": "slate-lodash-tree-shaking-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c",
+    "webpack": "webpack --mode production -o ./dist/demo-webpack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andarist/slate-lodash-tree-shaking-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andarist/slate-lodash-tree-shaking-demo/issues"
+  },
+  "homepage": "https://github.com/Andarist/slate-lodash-tree-shaking-demo#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "rollup": "^2.3.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "prettier": {}
+}
