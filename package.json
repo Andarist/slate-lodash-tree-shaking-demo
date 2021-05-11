@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Andarist/slate-lodash-tree-shaking-demo#readme",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.2",
